@@ -1,8 +1,11 @@
+// app/page.tsx
+'use client';
+
 import RiotAuthInterface from '@/components/riot-auth/RiotAuthInterface';
 
-export default function Home() {
+export default function AuthPage() {
   return (
-    <main className="min-h-screen p-4">
+    <main className="min-h-screen bg-background">
       <RiotAuthInterface />
     </main>
   );
